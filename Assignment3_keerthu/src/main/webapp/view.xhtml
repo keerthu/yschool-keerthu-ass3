@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <table border="0" cellspacing="6" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th colspan="2">Student Details</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Student Name: </td>
+                        <td><h:outputText value="#{useManagedBean.searchedStudent.name}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Grade :</td>
+                        <td><h:outputText value="#{useManagedBean.searchedStudent.grade}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Sex: </td>
+                        <td><h:outputText value="#{useManagedBean.searchedStudent.sex}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td><h:outputText value="#{useManagedBean.searchedStudent.age}"/></td>
+                    </tr>
+                    <tr>
+                        <td>Parent Name:</td>
+                        <td><h:outputText value="#{useManagedBean.searchedStudent.pname}"/></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </h:form>
+    </h:body>
+</html>
+
